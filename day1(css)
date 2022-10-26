@@ -1,0 +1,50 @@
+l_3{
+    margin: 10px;
+    background-color: aqua;
+    width: 50%;
+    float: left;
+    font-size: 100px;
+
+
+
+}
+.l_3s{
+    margin: 10px;
+    background-color: aqua;
+    width: 15px;
+    float: left;
+    border: 10px solid black;
+}
+#n1{
+    width: 100px;
+    height: 100px;
+
+    float: left;
+
+
+}
+#n1 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+#n2_2{
+    color: aquamarine;
+    width: 600px;
+    float: left;
+}
+#n2_1{
+    color: chartreuse;
+    width: 600px;
+
+}
+#right\ box{
+    float: right;
+    width: 220px;
+}
+.body{
+    background-image: url('2.jpg');
+}
+
+
