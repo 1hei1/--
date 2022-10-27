@@ -1,0 +1,45 @@
+window.onload = function (){
+document.getElementById("xues").innerHTML = "<p id=\"xue\">**</p>"
+document.getElementById("click1").onclick = function (){alert(666)};
+var text = document.getElementById("text");
+var xuehua = document.getElementById("xue")
+xuehua.style.position = 'absolute';
+xuehua.style.top = '1000px';
+xuehua.style.fontSize = '20px';
+xuehua.style.color = '#52ff07';
+var n = 0;
+var i;
+    var b = xuehua.cloneNode(true);
+function f(xuehua) {
+
+    //if(0<Number(xuehua.style.top.slice(0,-2))<1000){
+        //console.log(xuehua.style.top);
+       // console.log(Number(xuehua.style.top.slice(0,-2)));
+    var b = xuehua.cloneNode(true);
+    document.getElementById("xues").appendChild(b)
+    n = Math.random()*1000;
+xuehua.style.top = n+"px";
+if (i==1){
+xuehua.style.left = (n-10)+"px";
+setTimeout(console.log(6),20);
+i=0;}
+else {xuehua.style.right = n+"px";
+i=1;
+setTimeout(console.log(2),20)}
+}
+function f1() {
+    n = document.getElementById("xue")
+    document.getElementById("xues").removeChild(n)
+
+}
+    //else {xuehua.style.top = '0px';
+    //n = 0;}
+
+
+//setInterval(f,140,xuehua)
+//setInterval(f,10)
+
+setInterval(f,80,b)
+    setInterval(f1,95,b)
+
+}
