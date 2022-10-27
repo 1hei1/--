@@ -7,4 +7,8 @@ https://github.com/1hei1/--/blob/main/day1(html)
 
 day2
 
+https://github.com/1hei1/--/blob/main/day2(css)
 
+https://github.com/1hei1/--/blob/main/day2(html)
+
+https://github.com/1hei1/--/blob/main/day2(js)
