@@ -1,0 +1,72 @@
+.l_3{
+    margin: 10px;
+    background-color: aqua;
+    width: 50%;
+    float: left;
+    font-size: 100px;
+
+
+
+}
+.l_3s{
+    margin: 10px;
+    background-color: aqua;
+    width: 15px;
+    float: left;
+    border: 10px solid black;
+}
+#n1{
+    width: 100px;
+    height: 100px;
+
+    float: left;
+
+
+}
+#n1 img{
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+#n2_2{
+    color: aquamarine;
+    width: 600px;
+    float: left;
+}
+#n2_1{
+    color: chartreuse;
+    width: 600px;
+
+}
+#right\ box{
+    float: right;
+    width: 220px;
+}
+.body{
+    background-image: url('2.jpg');
+}
+
+#right\ box{
+    color: #773aff;
+}
+.kong{
+    width: 800px;
+    height: 100px;
+}
+.bottom{
+    line-height: 200px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#text {
+    outline-style: none;
+    border: darkseagreen;
+    border-bottom-width: 1px;
+    font-family: "Arial Black";
+    font-size: 20px;
+    color: chocolate;
+    background-color: chartreuse;
+}
+
