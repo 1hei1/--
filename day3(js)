@@ -1,0 +1,28 @@
+window.onload = function (){
+    for(var i=0;i<10;i++) {
+        p = document.createElement("p");
+        p.innerText = '❉';
+        p.id = 'xue'+i;
+        console.log(p)
+        document.getElementById('xues').appendChild(p);
+    }
+
+document.getElementById("click1").onclick = function (){alert(666)};
+var text = document.getElementById("text");
+    function xueset(){
+for(var n=0;n<10;n+=1){
+    var xuehua = document.getElementById('xue'+n);
+    console.log(xuehua)
+    xuehua.style.position='absolute';
+    xuehua.style.top = Math.random()*1000+"px";
+    console.log(Math.random())
+    xuehua.style.right = Math.random()*1000+"px";
+    xuehua.style.opacity -= 0.01;
+    if (xuehua.style.opacity<0){xuehua.style.opacity=1;}
+    xuehua.style.color = '#f4ffef';
+    setTimeout(console.log(123),20)
+
+}}
+setInterval(xueset,80)
+    setTimeout(console.log(6),10)
+}
